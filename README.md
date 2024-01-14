@@ -46,12 +46,12 @@ I created this plugin in order to improve integration CMake to the Vim editor. I
 
 You can use VimPlug for installation:
 ```vim
-Plug 'ilyachur/cmake4vim'
+Plug 'kayoscode/cmake4vim'
 ```
 Or Pathogen:
 ```sh
 cd ~/.vim/bundle
-git clone https://github.com/ilyachur/cmake4vim
+git clone https://github.com/kayoscode/cmake4vim
 ```
 
 ### Commands

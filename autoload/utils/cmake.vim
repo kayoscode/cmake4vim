@@ -46,6 +46,10 @@ function! s:getCMakeBuildPattern() abort
     return eval(printf('printf("%s", %s)', l:fmt, l:args))
 endfunction
 
+function! cmake4nvim#GetBuildDir() abort
+    return s:detectCMakeBuildDir()
+endfunction
+
 function! s:detectCMakeBuildDir() abort
     if !empty(g:cmake_build_dir)
         return g:cmake_build_dir
